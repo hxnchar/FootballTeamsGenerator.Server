@@ -1,0 +1,22 @@
+{
+  "name": "football-teams-generator.server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "start:dev": "nodemon ./index.js",
+    "lint:check": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "author": "Oleksii Honchar <alekseyhonchar@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1"
+  },
+  "dependencies": {
+    "express": "^4.18.3"
+  }
+}
